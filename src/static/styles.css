@@ -1,3 +1,5 @@
+#Cha
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -141,4 +143,33 @@ footer {
   margin-top: 30px;
   padding: 20px;
   color: #666;
+}
+
+.participants-section {
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+.participants-list {
+  list-style-type: none;
+  margin-left: 0;
+  color: #555;
+}
+
+.participants-list li {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-icon {
+  cursor: pointer;
+  color: #c62828;
+  font-size: 16px;
+}
+
+.delete-icon:hover {
+  color: #b71c1c;
 }
