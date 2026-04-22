@@ -1,3 +1,5 @@
+#Cha
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -141,4 +143,52 @@ footer {
   margin-top: 30px;
   padding: 20px;
   color: #666;
+}
+
+.participants-section {
+  margin-top: 15px;
+  padding: 12px;
+  border-top: 2px solid #1a237e;
+  background-color: #f0f4ff;
+  border-radius: 4px;
+}
+
+.participants-section p {
+  margin-bottom: 10px;
+  color: #1a237e;
+  font-size: 14px;
+}
+
+.participants-list {
+  list-style-type: none;
+  margin-left: 0;
+  color: #333;
+  padding-left: 0;
+}
+
+.participants-list li {
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.participants-list li:last-child {
+  margin-bottom: 0;
+}
+
+.delete-icon {
+  cursor: pointer;
+  color: #c62828;
+  font-size: 16px;
+  margin-left: 10px;
+  transition: color 0.2s, transform 0.2s;
+  flex-shrink: 0;
+}
+
+.delete-icon:hover {
+  color: #b71c1c;
+  transform: scale(1.15);
 }
